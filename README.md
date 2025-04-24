@@ -1,9 +1,10 @@
-# Sanicball
+# Sanicball-DX
 
-Sanicball is discontinued and I will not be accepting any pull requests.
-However if you have trouble understanding parts the project structure or code you can message me directly (viciousbadger@protonmail.com), I'll try to help out.
+Welcome to the Sanicball-DX Repo! 
+This Project is a continuation of Sanicball, the game by Badgersonn (https://github.com/BK-TN,viciousbadger@protonmail.com).
+Currently it does nothing except port the game to a newer version of Unity.
 
-The project is to be opened with Unity3D. It works best with version 5.3.5f1 of the editor (Available here: https://unity3d.com/get-unity/download/archive). If you use a newer version, Unity will attempt to upgrade the project, which will most likely leave a ton of bugs for you to fix first.
+This Project is mean to be opened with Unity6.(TBD.)
 
 Also check out https://github.com/BK-TN/SanicballServerList, which lets you host a server list for the game.
 
