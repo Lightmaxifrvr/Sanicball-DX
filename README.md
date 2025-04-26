@@ -2,7 +2,7 @@
 
 Welcome to the Sanicball-DX Repo! 
 This Project is a continuation of Sanicball, the game by Badgersonn (https://github.com/BK-TN , viciousbadger@protonmail.com).
-Currently it does nothing except port the game to a newer version of Unity.
+Currently it does nothing except be a (unfinished) port the game to a newer version of Unity.
 
 This Project is mean to be opened with Unity6.(TBD.)
 
