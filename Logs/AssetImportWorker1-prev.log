@@ -1,0 +1,629 @@
+Using pre-set license
+Built from '6000.0/respin/6000.0.59f1-063c55f2fd0f' branch; Version is '6000.0.59f2 (ef281c76c3c1) revision 15673372'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'en' Physical Memory: 7984 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2025-12-16T14:12:47Z
+
+COMMAND LINE ARGUMENTS:
+D:\Ewnety\6000.0.59f2\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/Maxi/Documents/GitHub/Sanicball-DX
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+58697
+-job-worker-count
+5
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/Maxi/Documents/GitHub/Sanicball-DX
+C:/Users/Maxi/Documents/GitHub/Sanicball-DX
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [7560]  Target information:
+
+Player connection [7560]  * "[IP] 192.168.178.105 [Port] 0 [Flags] 2 [Guid] 1825239019 [EditorId] 1825239019 [Version] 1048832 [Id] WindowsEditor(7,FunniPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [7560]  * "[IP] 192.168.59.1 [Port] 0 [Flags] 2 [Guid] 1825239019 [EditorId] 1825239019 [Version] 1048832 [Id] WindowsEditor(7,FunniPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [7560]  * "[IP] 192.168.206.1 [Port] 0 [Flags] 2 [Guid] 1825239019 [EditorId] 1825239019 [Version] 1048832 [Id] WindowsEditor(7,FunniPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [7560] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [7560] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 37.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.59f2 (ef281c76c3c1)
+[Subsystems] Discovering subsystems at path D:/Ewnety/6000.0.59f2/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Maxi/Documents/GitHub/Sanicball-DX/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 7700 XT (ID=0x747e)
+    Vendor:   ATI
+    VRAM:     12272 MB
+    Driver:   32.0.22029.9039
+Initialize mono
+Mono path[0] = 'D:/Ewnety/6000.0.59f2/Editor/Data/Managed'
+Mono path[1] = 'D:/Ewnety/6000.0.59f2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Ewnety/6000.0.59f2/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56564
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Ewnety/6000.0.59f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.016827 seconds.
+- Loaded All Assemblies, in  1.662 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.791 seconds
+Domain Reload Profiling: 2453ms
+	BeginReloadAssembly (699ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (6ms)
+	RebuildCommonClasses (196ms)
+	RebuildNativeTypeToScriptingClass (71ms)
+	initialDomainReloadingComplete (251ms)
+	LoadAllAssembliesAndSetupDomain (446ms)
+		LoadAssemblies (689ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (433ms)
+			TypeCache.Refresh (430ms)
+				TypeCache.ScanAssembly (383ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (791ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (700ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (47ms)
+			SetLoadedEditorAssemblies (13ms)
+			BeforeProcessingInitializeOnLoad (202ms)
+			ProcessInitializeOnLoadAttributes (338ms)
+			ProcessInitializeOnLoadMethodAttributes (99ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+Duplicate assembly 'Newtonsoft.Json.dll' with different versions detected, using 'Packages/com.unity.nuget.newtonsoft-json/Runtime/Newtonsoft.Json.dll, AssemblyName=Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed' and ignoring 'Assets/Assemblies/Newtonsoft.Json.dll, AssemblyName=Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed'.Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.970 seconds
+OnLevelWasLoaded was found on MatchManager
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+Refreshing native plugins compatible for Editor in 43.57 ms, found 2 plugins.
+OnLevelWasLoaded was found on MatchManager
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 20.94 ms, found 2 plugins.
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.886 seconds
+Domain Reload Profiling: 3846ms
+	BeginReloadAssembly (544ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (18ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (85ms)
+	RebuildCommonClasses (108ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (1227ms)
+		LoadAssemblies (1167ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (367ms)
+			TypeCache.Refresh (280ms)
+				TypeCache.ScanAssembly (248ms)
+			BuildScriptInfoCaches (75ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1887ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1594ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (328ms)
+			ProcessInitializeOnLoadAttributes (847ms)
+			ProcessInitializeOnLoadMethodAttributes (404ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 47.91 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3101 unused Assets / (1.1 MB). Loaded Objects now: 3628.
+Memory consumption went from 84.9 MB to 83.8 MB.
+Total: 53.750400 ms (FindLiveObjects: 3.527900 ms CreateObjectMapping: 1.149700 ms MarkObjects: 42.962300 ms  DeleteObjects: 6.106000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 99987.171556 seconds.
+  path: Assets/Scenes/Intro.unity
+  artifactKey: Guid(48101ff8d549d8341866310edc781562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Intro.unity using Guid(48101ff8d549d8341866310edc781562) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd86ffd8d3cad7386186783fa202bb5a5') in 0.0384825 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Icon.png
+  artifactKey: Guid(a36d51c63d3cb384b846f2301089d233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Icon.png using Guid(a36d51c63d3cb384b846f2301089d233) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd988694ae7a3e5f95f545c6f43554599') in 0.6224735 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Duplicate assembly 'Newtonsoft.Json.dll' with different versions detected, using 'Packages/com.unity.nuget.newtonsoft-json/Runtime/Newtonsoft.Json.dll, AssemblyName=Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed' and ignoring 'Assets/Assemblies/Newtonsoft.Json.dll, AssemblyName=Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed'.Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  4.034 seconds
+OnLevelWasLoaded was found on MatchManager
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+Refreshing native plugins compatible for Editor in 46.90 ms, found 2 plugins.
+OnLevelWasLoaded was found on MatchManager
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.198 seconds
+Domain Reload Profiling: 6260ms
+	BeginReloadAssembly (756ms)
+		ExecutionOrderSort (1ms)
+		DisableScriptedObjects (82ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (211ms)
+	RebuildCommonClasses (83ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (68ms)
+	LoadAllAssembliesAndSetupDomain (3130ms)
+		LoadAssemblies (2649ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (728ms)
+			TypeCache.Refresh (39ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (626ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (2200ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1686ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (15ms)
+			BeforeProcessingInitializeOnLoad (398ms)
+			ProcessInitializeOnLoadAttributes (764ms)
+			ProcessInitializeOnLoadMethodAttributes (498ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (22ms)
+Refreshing native plugins compatible for Editor in 26.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3099 unused Assets / (0.8 MB). Loaded Objects now: 3633.
+Memory consumption went from 85.6 MB to 84.8 MB.
+Total: 19.533300 ms (FindLiveObjects: 0.796300 ms CreateObjectMapping: 0.598400 ms MarkObjects: 16.059300 ms  DeleteObjects: 2.075500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Duplicate assembly 'Newtonsoft.Json.dll' with different versions detected, using 'Packages/com.unity.nuget.newtonsoft-json/Runtime/Newtonsoft.Json.dll, AssemblyName=Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed' and ignoring 'Assets/Assemblies/Newtonsoft.Json.dll, AssemblyName=Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed'.Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.446 seconds
+OnLevelWasLoaded was found on MatchManager
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+Refreshing native plugins compatible for Editor in 13.03 ms, found 2 plugins.
+OnLevelWasLoaded was found on MatchManager
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.471 seconds
+Domain Reload Profiling: 2918ms
+	BeginReloadAssembly (468ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (92ms)
+	RebuildCommonClasses (74ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (840ms)
+		LoadAssemblies (952ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (177ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (149ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (1473ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1185ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (177ms)
+			ProcessInitializeOnLoadAttributes (556ms)
+			ProcessInitializeOnLoadMethodAttributes (433ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (27ms)
+Refreshing native plugins compatible for Editor in 47.12 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3099 unused Assets / (0.8 MB). Loaded Objects now: 3633.
+Memory consumption went from 85.6 MB to 84.8 MB.
+Total: 55.112900 ms (FindLiveObjects: 2.374900 ms CreateObjectMapping: 2.451900 ms MarkObjects: 44.792300 ms  DeleteObjects: 5.490400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Duplicate assembly 'Newtonsoft.Json.dll' with different versions detected, using 'Packages/com.unity.nuget.newtonsoft-json/Runtime/Newtonsoft.Json.dll, AssemblyName=Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed' and ignoring 'Assets/Assemblies/Newtonsoft.Json.dll, AssemblyName=Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed'.Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.331 seconds
+OnLevelWasLoaded was found on MatchManager
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+Refreshing native plugins compatible for Editor in 21.15 ms, found 2 plugins.
+OnLevelWasLoaded was found on MatchManager
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.242 seconds
+Domain Reload Profiling: 3576ms
+	BeginReloadAssembly (354ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (82ms)
+	RebuildCommonClasses (65ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (849ms)
+		LoadAssemblies (764ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (270ms)
+			TypeCache.Refresh (38ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (217ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (2243ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1996ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (296ms)
+			ProcessInitializeOnLoadAttributes (1090ms)
+			ProcessInitializeOnLoadMethodAttributes (592ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Refreshing native plugins compatible for Editor in 27.85 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3099 unused Assets / (1.1 MB). Loaded Objects now: 3633.
+Memory consumption went from 85.6 MB to 84.5 MB.
+Total: 24.971000 ms (FindLiveObjects: 0.917500 ms CreateObjectMapping: 0.932300 ms MarkObjects: 20.337600 ms  DeleteObjects: 2.781100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 1560.284735 seconds.
+  path: Assets/Art/Test/SANICBALL-16-12-2025_1.png
+  artifactKey: Guid(14ceeba4aef7df24eb5b774292f2654f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Test/SANICBALL-16-12-2025_1.png using Guid(14ceeba4aef7df24eb5b774292f2654f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '305f015ebc8ef5aaa75879723157749d') in 0.481423 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 90.534618 seconds.
+  path: Assets/Art/Test/SANICBALL-16-12-2025_1.png
+  artifactKey: Guid(14ceeba4aef7df24eb5b774292f2654f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Test/SANICBALL-16-12-2025_1.png using Guid(14ceeba4aef7df24eb5b774292f2654f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9312c7a7176da4293862b9cb10c78b67') in 0.0293551 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.189141 seconds.
+  path: Assets/Art/User Interface/Textures/BoxSpikesLeftOnly.psd
+  artifactKey: Guid(e94ce6a8ce6e1c640b30babe6150479a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/User Interface/Textures/BoxSpikesLeftOnly.psd using Guid(e94ce6a8ce6e1c640b30babe6150479a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3984ffe64ab9aced82ec845427aed573') in 0.2535775 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Art/User Interface/Control Types/Joystick2.psd
+  artifactKey: Guid(f041746130aed1544ab15b88e8fe8017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/User Interface/Control Types/Joystick2.psd using Guid(f041746130aed1544ab15b88e8fe8017) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '989f26ada0fbb38170fe8ad88cea47cd') in 0.0460941 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/Art/Characters/14 Metal Sanic/MetalSanicIcon.PNG
+  artifactKey: Guid(c1be4fb07e7e12e409aad5b7f78785f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Characters/14 Metal Sanic/MetalSanicIcon.PNG using Guid(c1be4fb07e7e12e409aad5b7f78785f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '015362f719cdb3b6ae755adb02cd3392') in 0.0354924 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Art/User Interface/Textures/CircleOutline.psd
+  artifactKey: Guid(59af4134fa8713a488402850bc6671bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/User Interface/Textures/CircleOutline.psd using Guid(59af4134fa8713a488402850bc6671bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f700d2ba1d3b4e47df5003f61da79797') in 0.0358362 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Art/User Interface/Textures/SectionSeperator.psd
+  artifactKey: Guid(ea0e7c0c67c708e4f977ce3d376666c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/User Interface/Textures/SectionSeperator.psd using Guid(ea0e7c0c67c708e4f977ce3d376666c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3826911e185ba88812bf6a792c38d3f6') in 0.0325379 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Art/User Interface/Menu+Intro/Intro_Sanicteam.psd
+  artifactKey: Guid(4b729a55878d33748bd13eb03ca1c2ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/User Interface/Menu+Intro/Intro_Sanicteam.psd using Guid(4b729a55878d33748bd13eb03ca1c2ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ccad53aa46613d265b5b3c877f3d3ddf') in 0.0480412 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Art/User Interface/Textures/BoxSpikesRightOnlyNoLines.psd
+  artifactKey: Guid(ec721bc7a9a33a348912bb82860d1fb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/User Interface/Textures/BoxSpikesRightOnlyNoLines.psd using Guid(ec721bc7a9a33a348912bb82860d1fb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ef043a75c7322dce160c6ad827a63499') in 0.038713 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Art/Easter eggs/Ogre/OgreIcon.png
+  artifactKey: Guid(69604edd7f9387841a777c31d9ad559a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Easter eggs/Ogre/OgreIcon.png using Guid(69604edd7f9387841a777c31d9ad559a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '13b4711a40145a39060d1c74f6fa1fb2') in 0.0565304 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012436 seconds.
+  path: Assets/Art/User Interface/Textures/GradientUp75%.psd
+  artifactKey: Guid(7ea1856380da94b48954f3109b499e97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/User Interface/Textures/GradientUp75%.psd using Guid(7ea1856380da94b48954f3109b499e97) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fc99c06d1d5aeb162724e4f2fa2da2c6') in 0.0458142 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Art/User Interface/Control Types/None.psd
+  artifactKey: Guid(17cde25a6c71b1e4f9842d3a3bb58fff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/User Interface/Control Types/None.psd using Guid(17cde25a6c71b1e4f9842d3a3bb58fff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '24fc5f33a97d580e0d4d359795734b11') in 0.0451061 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Art/User Interface/Menu+Intro/Intro_BK-TN.psd
+  artifactKey: Guid(f92bccf5bb6a14e4d8e9c073d5aad1e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/User Interface/Menu+Intro/Intro_BK-TN.psd using Guid(f92bccf5bb6a14e4d8e9c073d5aad1e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '950666732f4a6936d76cefd8db8266dd') in 0.0446345 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Art/User Interface/Textures/GradientRight.psd
+  artifactKey: Guid(85fea51c8b8798f42ae984c5e025fef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/User Interface/Textures/GradientRight.psd using Guid(85fea51c8b8798f42ae984c5e025fef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '46b3f47e032237e5dd902581745aafc1') in 0.0431675 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Art/User Interface/Stage Thumbnails/StageThumb_FlameCore.jpg
+  artifactKey: Guid(9bcec5996a6fdb245ba294c8d86c550d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/User Interface/Stage Thumbnails/StageThumb_FlameCore.jpg using Guid(9bcec5996a6fdb245ba294c8d86c550d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '13fa092c740d3093a80254230a57adef') in 0.0436393 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Art/User Interface/Control Types/Joystick1.psd
+  artifactKey: Guid(a20478cb9be7a75439934fbcd1a2d789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/User Interface/Control Types/Joystick1.psd using Guid(a20478cb9be7a75439934fbcd1a2d789) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dbf1142eaa5c967aeeca56dcd27ed05c') in 0.0432406 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Art/User Interface/Textures/Circle.psd
+  artifactKey: Guid(cdfc722cd8e75744b8f80aa6f9221b97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/User Interface/Textures/Circle.psd using Guid(cdfc722cd8e75744b8f80aa6f9221b97) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '11392b2bcbf4425bcd87fba1d9c3b170') in 0.0348593 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Art/User Interface/Textures/GradientDown.psd
+  artifactKey: Guid(c28e1d3e9ef41dd419f5679fae58af8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/User Interface/Textures/GradientDown.psd using Guid(c28e1d3e9ef41dd419f5679fae58af8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e6d4c8de4f62e7ffc04ad74eb50af659') in 0.0340539 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Art/Characters/99 Super Sanic/SuperSanicIcon.png
+  artifactKey: Guid(fcac47643ed0b884ba66157d894d95dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Characters/99 Super Sanic/SuperSanicIcon.png using Guid(fcac47643ed0b884ba66157d894d95dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b9030544be7122939594cb3f24974690') in 0.039468 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Art/User Interface/Control Types/Joystick3.psd
+  artifactKey: Guid(50fa2603424d9b84e9433af74b6b81c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/User Interface/Control Types/Joystick3.psd using Guid(50fa2603424d9b84e9433af74b6b81c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'df45ffe7e6ba73974776a86bc13df779') in 0.0494357 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000927 seconds.
+  path: Assets/Art/User Interface/Textures/Checkmark.psd
+  artifactKey: Guid(f19ebb4eb6ce0fb40927bb036a87170b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/User Interface/Textures/Checkmark.psd using Guid(f19ebb4eb6ce0fb40927bb036a87170b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7f5111a59af73076587fb1b336945945') in 0.0489686 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000370 seconds.
+  path: Assets/Art/User Interface/Textures/GradientLeftAlt.psd
+  artifactKey: Guid(51d669c24b5e90c46a9ec40bc962bffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/User Interface/Textures/GradientLeftAlt.psd using Guid(51d669c24b5e90c46a9ec40bc962bffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '16a1c42ab6f1b5c9449b811570fd6ca8') in 0.0462983 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Art/Characters/06 Roge da Bat/RogeIcon.png
+  artifactKey: Guid(153019c126cd5c9439278368f95954e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Characters/06 Roge da Bat/RogeIcon.png using Guid(153019c126cd5c9439278368f95954e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fd258056172713dc6375337b27c455ee') in 0.0487379 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Art/User Interface/Menu+Intro/GameTitle.psd
+  artifactKey: Guid(3281016baaaa74f48b589faee4e01a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/User Interface/Menu+Intro/GameTitle.psd using Guid(3281016baaaa74f48b589faee4e01a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '90ebea836633b4a88362233519b17fc9') in 0.0413586 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Art/Characters/05 Shedew/ShedewIcon.png
+  artifactKey: Guid(4e28aa2bbb0876d47814133089db668b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Characters/05 Shedew/ShedewIcon.png using Guid(4e28aa2bbb0876d47814133089db668b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fddd8c6fcdccb549157112156608429d') in 0.0372488 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Art/User Interface/Textures/Marker.psd
+  artifactKey: Guid(d4dc66cb35b20c44ebc81cfa6c2bec68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/User Interface/Textures/Marker.psd using Guid(d4dc66cb35b20c44ebc81cfa6c2bec68) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7453e941f2608c0bda216489a27e71d9') in 0.0393547 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.375581 seconds.
+  path: Assets/Art/Characters/12 Bloze/BlozeIcon.png
+  artifactKey: Guid(2d3a2b172aa7be04495f0a7c6c77ebee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Characters/12 Bloze/BlozeIcon.png using Guid(2d3a2b172aa7be04495f0a7c6c77ebee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cec52e67811d5260fda2bf807e5cba50') in 0.0554491 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Art/User Interface/Textures/BoxFlat.psd
+  artifactKey: Guid(21ef4a30bb186d547bfaaa62a3405cae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/User Interface/Textures/BoxFlat.psd using Guid(21ef4a30bb186d547bfaaa62a3405cae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ea613ecf7ddd99c96c967a36f2ee2a07') in 0.0598751 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.692492 seconds.
+  path: Assets/Art/Characters/04 Ame Roes/AmeIcon.png
+  artifactKey: Guid(f54471598afdcd14e979c1d54bd3d919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Characters/04 Ame Roes/AmeIcon.png using Guid(f54471598afdcd14e979c1d54bd3d919) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '94b0baf69a7224864ce78f94a05c8b4b') in 0.0548512 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
