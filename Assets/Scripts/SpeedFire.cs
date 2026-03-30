@@ -46,6 +46,7 @@ namespace Sanicball {
 			transform.rotation = q;
 
 			mr.material.color = new Color(1,1,1,power);
+			mr.material.SetVector("_EmissionColor", new Vector4(0.8196f,0.783f,0) * power);
 			asrc.volume = Mathf.Lerp(0,0.4f,power);
 			asrc.pitch = Mathf.Lerp(1.5f,7f,power);
 		}
