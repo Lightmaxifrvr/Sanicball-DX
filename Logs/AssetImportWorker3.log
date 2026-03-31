@@ -1,11 +1,11 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.4/staging' branch; Version is '6000.4.0f1 (8cf496087c8f) revision 9237654'; Using compiler version '194234433'; Build Type 'Release'
 OS: 'Windows 11  (10.0.26100) Professional' Language: 'en' Physical Memory: 16310 MB
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Maxi" at "2026-03-30T15:30:41.8002404Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Maxi" at "2026-03-31T10:25:19.9035126Z"
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
 System  architecture: x64
 Process architecture: x64
-Date: 2026-03-30T15:30:41Z
+Date: 2026-03-31T10:25:19Z
 
 COMMAND LINE ARGUMENTS:
 D:\Ewnety\6000.4.0f1\Editor\Unity.exe
@@ -19,7 +19,7 @@ C:/Users/Maxi/Documents/GitHub/Sanicball-DX
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-65493
+62813
 -licensingIpc
 LicenseClient-Maxi
 -force-d3d12
@@ -68,16 +68,16 @@ C:/Users/Maxi/Documents/GitHub/Sanicball-DX
     "memorysetup-job-temp-allocator-block-size=2097152"
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
-Player connection [30548]  Target information:
+Player connection [2604]  Target information:
 
-Player connection [30548]  * "[IP] 192.168.59.1 [Port] 0 [Flags] 2 [Guid] 1812188071 [EditorId] 1812188071 [Version] 1048832 [Id] WindowsEditor(7,FunniPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [2604]  * "[IP] 192.168.59.1 [Port] 0 [Flags] 2 [Guid] 4234865645 [EditorId] 4234865645 [Version] 1048832 [Id] WindowsEditor(7,FunniPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [30548]  * "[IP] 192.168.206.1 [Port] 0 [Flags] 2 [Guid] 1812188071 [EditorId] 1812188071 [Version] 1048832 [Id] WindowsEditor(7,FunniPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [2604]  * "[IP] 192.168.206.1 [Port] 0 [Flags] 2 [Guid] 4234865645 [EditorId] 4234865645 [Version] 1048832 [Id] WindowsEditor(7,FunniPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [30548]  * "[IP] 192.168.178.168 [Port] 0 [Flags] 2 [Guid] 1812188071 [EditorId] 1812188071 [Version] 1048832 [Id] WindowsEditor(7,FunniPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [2604]  * "[IP] 192.168.178.168 [Port] 0 [Flags] 2 [Guid] 4234865645 [EditorId] 4234865645 [Version] 1048832 [Id] WindowsEditor(7,FunniPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [30548] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [30548] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [2604] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [2604] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -89,7 +89,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 7.29 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 6.98 ms, found 2 plugins.
 Initialize engine version: 6000.4.0f1 (8cf496087c8f)
 [Subsystems] Discovering subsystems at path D:/Ewnety/6000.4.0f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/Maxi/Documents/GitHub/Sanicball-DX/Assets
@@ -103,32 +103,32 @@ Direct3D:
     VRAM:            12081 MB
     App VRAM Budget: 11313 MB
     Driver:          32.0.23033.1002
-Initialize mono
-Mono path[0] = 'D:/Ewnety/6000.4.0f1/Editor/Data/Managed'
-Mono path[1] = 'D:/Ewnety/6000.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'D:/Ewnety/6000.4.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56752
-CodeReloadManager initialized
 [Licensing::Client] Error: HandshakeResponse reported an error:
 	ResponseCode: 505
 	ResponseStatus: Unsupported protocol version '1.18.1'.
 [Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-Maxi"
 [Licensing::IpcConnector] LicenseClient-Maxi channel disconnected successfully.
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Maxi-6000.4.0" at "2026-03-30T15:30:42.7310126Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Maxi-6000.4.0" at "2026-03-31T10:25:21.083998Z"
+Initialize mono
+Mono path[0] = 'D:/Ewnety/6000.4.0f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Ewnety/6000.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Ewnety/6000.4.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56620
+CodeReloadManager initialized
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Ewnety/6000.4.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 [Licensing::Module] Licensing is not yet initialized.
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.18.1+9fbee8e
-  Session Id:              47e23233810a42bb85345179ff9da364
-  Correlation Id:          71b3e845ab3b577325afcff24cb99aec
-  External correlation Id: 323872117156737573
+  Session Id:              82971ff436004c7997002eb9eb1da9e4
+  Correlation Id:          fbe1c7771805f9ad4a8b5bd9e44ed52c
+  External correlation Id: 5240854341676724055
   Machine Id:              IkTvWfYHITFguh6+9JakOOPq8e4=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Maxi-6000.4.0" (connect: 0.00s, validation: 0.00s, handshake: 1.37s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Maxi-6000.4.0-notifications" at "2026-03-30T15:30:44.1014085Z"
-[Licensing::Module] Licensing Background thread has ended after 2.30s
-[Licensing::Module] Licensing is initialized (took 1.17s).
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Maxi-6000.4.0" (connect: 0.00s, validation: 0.00s, handshake: 9.72s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Maxi-6000.4.0-notifications" at "2026-03-31T10:25:30.8032731Z"
+[Licensing::Module] Licensing Background thread has ended after 10.90s
+[Licensing::Module] Licensing is initialized (took 8.43s).
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
   Id: F4-MESN-GUW7-62D3-FRZW-XXXX
@@ -141,9 +141,9 @@ Register platform support module: D:/Ewnety/6000.4.0f1/Editor/Data/PlaybackEngin
   Type: Assigned
   Expiration: Unlimited
 Register platform support module: D:/Ewnety/6000.4.0f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 1.170013 seconds.
+Registered in 8.439327 seconds.
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 286 ms
+Android Extension - Scanning For ADB Devices 287 ms
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
@@ -151,23 +151,23 @@ Package Manager log level set to [2]
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.736 seconds
-Domain Reload Profiling: 2351ms
-	BeginReloadAssembly (124ms)
-	RebuildCommonClasses (40ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (1230ms)
-	LoadAllAssembliesAndSetupDomain (210ms)
-		LoadAssemblies (124ms)
-		AnalyzeDomain (201ms)
-			TypeCache.Refresh (200ms)
-				TypeCache.ScanAssembly (182ms)
-	FinalizeReload (736ms)
+- Finished resetting the current domain, in  0.865 seconds
+Domain Reload Profiling: 10727ms
+	BeginReloadAssembly (161ms)
+	RebuildCommonClasses (259ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (8507ms)
+	LoadAllAssembliesAndSetupDomain (922ms)
+		LoadAssemblies (160ms)
+		AnalyzeDomain (911ms)
+			TypeCache.Refresh (909ms)
+				TypeCache.ScanAssembly (663ms)
+	FinalizeReload (866ms)
 		SetupLoadedEditorAssemblies (0ms)
-			InitializePlatformSupportModulesInManaged (375ms)
-			BeforeProcessingInitializeOnLoad (74ms)
-			ProcessInitializeOnLoadAttributes (104ms)
-			ProcessInitializeOnLoadMethodAttributes (116ms)
+			InitializePlatformSupportModulesInManaged (400ms)
+			BeforeProcessingInitializeOnLoad (94ms)
+			ProcessInitializeOnLoadAttributes (154ms)
+			ProcessInitializeOnLoadMethodAttributes (143ms)
 ========================================================================
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
@@ -226,7 +226,7 @@ Symbol file LoadedFromMemory is not a mono symbol file
 OnLevelWasLoaded was found on MatchManager
 This message has been deprecated and will be removed in a later version of Unity.
 Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
-Refreshing native plugins compatible for Editor in 4.37 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 5.35 ms, found 2 plugins.
 OnLevelWasLoaded was found on MatchManager
 This message has been deprecated and will be removed in a later version of Unity.
 Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
@@ -240,603 +240,140 @@ Native extension for WindowsStandalone target not found
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.795 seconds
-Domain Reload Profiling: 1534ms
-	BeginReloadAssembly (156ms)
+- Finished resetting the current domain, in  1.108 seconds
+Domain Reload Profiling: 2155ms
+	BeginReloadAssembly (197ms)
 		DisableScriptedObjects (5ms)
-		CreateAndSetChildDomain (25ms)
-	RebuildCommonClasses (33ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (58ms)
-	LoadAllAssembliesAndSetupDomain (482ms)
-		LoadAssemblies (359ms)
-		AnalyzeDomain (210ms)
-			TypeCache.Refresh (145ms)
-				TypeCache.ScanAssembly (128ms)
-			BuildScriptInfoCaches (54ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (795ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (76ms)
+	LoadAllAssembliesAndSetupDomain (717ms)
+		LoadAssemblies (460ms)
+		AnalyzeDomain (362ms)
+			TypeCache.Refresh (281ms)
+				TypeCache.ScanAssembly (263ms)
+			BuildScriptInfoCaches (68ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1109ms)
 		SetupLoadedEditorAssemblies (0ms)
-			InitializePlatformSupportModulesInManaged (8ms)
-			BeforeProcessingInitializeOnLoad (128ms)
-			ProcessInitializeOnLoadAttributes (225ms)
-			ProcessInitializeOnLoadMethodAttributes (231ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 4.24 ms, found 2 plugins.
+			InitializePlatformSupportModulesInManaged (9ms)
+			BeforeProcessingInitializeOnLoad (176ms)
+			ProcessInitializeOnLoadAttributes (279ms)
+			ProcessInitializeOnLoadMethodAttributes (358ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 7.07 ms, found 2 plugins.
 Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5651 unused Assets / (6.2 MB). Loaded Objects now: 6510.
-Memory consumption went from 159.4 MB to 153.2 MB.
-Total: 15.171600 ms (FindLiveObjects: 0.641800 ms CreateObjectMapping: 0.303600 ms MarkObjects: 10.776400 ms  DeleteObjects: 3.446700 ms)
+Unloading 5652 unused Assets / (6.3 MB). Loaded Objects now: 6536.
+Memory consumption went from 166.5 MB to 160.2 MB.
+Total: 34.904600 ms (FindLiveObjects: 1.104700 ms CreateObjectMapping: 19.553900 ms MarkObjects: 10.672300 ms  DeleteObjects: 3.570100 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 26136.202079 seconds.
-  path: Assets/Prefabs/EventSystem.prefab
-  importAddress: Guid(bca34864aae62f44c991af3204f2ce46) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
-Start importing Assets/Prefabs/EventSystem.prefab using Guid(bca34864aae62f44c991af3204f2ce46) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: 'f8a24c54fcf4e87008670326e1bc1d94') in 0.1191989 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d83f43baf198c3eab12a0fecd1fa15ca DependenciesID=a599fe8fd91ab068548f72ed6c9c26a1 StaticDependenciesID=f5053a25e38a36dbb5fd1d916f407cf2 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Scenes/Track_GreenHillNew.unity
-  importAddress: Guid(84ec1bd52058df5439f3802601070816) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
-Start importing Assets/Scenes/Track_GreenHillNew.unity using Guid(84ec1bd52058df5439f3802601070816) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter)Opening scene 'Assets/Scenes/Track_GreenHillNew.unity additively'
-Unknown error occurred while loading 'Assets/Art/Easter eggs/Ogre/Ogre.mat'.
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.SceneManagement.EditorSceneManager:OpenScene (string,UnityEditor.SceneManagement.OpenSceneMode)
-UnityEditor.Search.AssetIndexer:IndexScene (string,bool)
-UnityEditor.Search.AssetIndexer:IndexSceneDocument (string,bool)
-UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
-UnityEditor.Search.SearchIndexArtifactImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
-UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
-
-[ line 0]
-
-Problem detected while opening the Scene file: 'Assets/Scenes/Track_GreenHillNew.unity'.
-Check the following logs for more details.
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.SceneManagement.EditorSceneManager:OpenScene (string,UnityEditor.SceneManagement.OpenSceneMode)
-UnityEditor.Search.AssetIndexer:IndexScene (string,bool)
-UnityEditor.Search.AssetIndexer:IndexSceneDocument (string,bool)
-UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
-UnityEditor.Search.SearchIndexArtifactImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
-UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
-
-[C:\build\output\unity\unity\Runtime\PreloadManager\LoadSceneOperation.cpp line 839]
-
-Prefab instance problem. Missing Prefab Asset: 'ghHill1 (Missing Prefab with guid: 0038f808fb7f8e04abd910d6fd55d85d)'
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.SceneManagement.EditorSceneManager:OpenScene (string,UnityEditor.SceneManagement.OpenSceneMode)
-UnityEditor.Search.AssetIndexer:IndexScene (string,bool)
-UnityEditor.Search.AssetIndexer:IndexSceneDocument (string,bool)
-UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
-UnityEditor.Search.SearchIndexArtifactImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
-UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
-
-[C:\build\output\unity\unity\Runtime\BaseClasses\ErrorsAndWarningsCapture.cpp line 66]
-
-Prefab instance problem: 'Missing Prefab with guid: a06ea71141799664887ba255ff1e3934'. 6 instances are missing the same Prefab Asset with guid a06ea71141799664887ba255ff1e3934.
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.SceneManagement.EditorSceneManager:OpenScene (string,UnityEditor.SceneManagement.OpenSceneMode)
-UnityEditor.Search.AssetIndexer:IndexScene (string,bool)
-UnityEditor.Search.AssetIndexer:IndexSceneDocument (string,bool)
-UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
-UnityEditor.Search.SearchIndexArtifactImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
-UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
-
-[C:\build\output\unity\unity\Runtime\BaseClasses\ErrorsAndWarningsCapture.cpp line 66]
-
-Loaded scene 'Assets/Scenes/Track_GreenHillNew.unity'
-	Deserialize:            13.744 ms
-	Integration:            519.365 ms
-	Integration of assets:  0.314 ms
-	Thread Wait Time:       0.009 ms
-	Total Operation Time:   533.432 ms
- -> (Import Result ID: '491c62a9a8af484da8f16f8511c04e7a') in 0.8453885 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e36ec213002e6552264c14d3e42cbf40 DependenciesID=8020c220094b6ac233484f0d476a0395 StaticDependenciesID=af7b21ac45d80418689d52d572bfec03 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 319
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Prefabs/User Interface/Controls/ButtonControlSingleText.prefab
-  importAddress: Guid(e5d237d0846d27944a3a24718ef6c22f) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
-Start importing Assets/Prefabs/User Interface/Controls/ButtonControlSingleText.prefab using Guid(e5d237d0846d27944a3a24718ef6c22f) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: 'd47dd9f3f0a67f6c5e7f88d23187ded1') in 0.0422555 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=07df8ff444e12dabfc2d52f5b193b2ca DependenciesID=467ba14df9dad9690cfc9c8d65265f22 StaticDependenciesID=4ae8be88ee6b0ba1d6adf5be09143616 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Prefabs/Ingame/Scenery/01 Green Hill Zone/GreenHillZoneTerrain.prefab
-  importAddress: Guid(724df65e74893cb43991e54f26bf84a3) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
-Start importing Assets/Prefabs/Ingame/Scenery/01 Green Hill Zone/GreenHillZoneTerrain.prefab using Guid(724df65e74893cb43991e54f26bf84a3) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: '4c4a75a19a437d31d74bc3b0d49118e6') in 0.1154662 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e66cd4f53d5048d9beaa50149095edba DependenciesID=3f41ff217a4085232eed5a44f0107f45 StaticDependenciesID=17792018bd82342c181043e35102b349 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 63
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Scenes/TestingTrack.unity
-  importAddress: Guid(385f6386bc8958a439098aa5a25acb6d) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
-Start importing Assets/Scenes/TestingTrack.unity using Guid(385f6386bc8958a439098aa5a25acb6d) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter)Opening scene 'Assets/Scenes/TestingTrack.unity additively'
-Lighting data asset ‘LightingData’ is incompatible with the current Unity version. Please use Generate Lighting to rebuild the lighting data. Realtime Global Illumination cannot be used until the lighting data is rebuilt.
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.SceneManagement.EditorSceneManager:OpenScene (string,UnityEditor.SceneManagement.OpenSceneMode)
-UnityEditor.Search.AssetIndexer:IndexScene (string,bool)
-UnityEditor.Search.AssetIndexer:IndexSceneDocument (string,bool)
-UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
-UnityEditor.Search.SearchIndexArtifactImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
-UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
-
-[C:\build\output\unity\unity\Editor\Src\GI\Enlighten\LightingDataAsset.cpp line 469]
-
-Lighting data asset ‘LightingData’ is incompatible with the current Unity version because the scene it was baked for was not serialized. Please use Generate Lighting to rebuild the lighting data, or assign the target scene to the Lighting Data Asset in the inspector.
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.SceneManagement.EditorSceneManager:OpenScene (string,UnityEditor.SceneManagement.OpenSceneMode)
-UnityEditor.Search.AssetIndexer:IndexScene (string,bool)
-UnityEditor.Search.AssetIndexer:IndexSceneDocument (string,bool)
-UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
-UnityEditor.Search.SearchIndexArtifactImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
-UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
-
-[C:\build\output\unity\unity\Editor\Src\GI\Enlighten\LightingDataAsset.cpp line 479]
-
-Loaded scene 'Assets/Scenes/TestingTrack.unity'
-	Deserialize:            1.163 ms
-	Integration:            413.363 ms
-	Integration of assets:  0.001 ms
-	Thread Wait Time:       0.015 ms
-	Total Operation Time:   414.541 ms
- -> (Import Result ID: 'b51410f30c6db405282f2b303ae650b4') in 0.4827677 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4fc1af9fed5f21369d12772733b4d071 DependenciesID=af06da3e914d55289e9952d073843341 StaticDependenciesID=c9f478d34a126105adade404ac44a7d6 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 364
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Prefabs/User Interface/PauseMenu.prefab
-  importAddress: Guid(26112b52065230d4d957e3f9d87cb82e) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
-Start importing Assets/Prefabs/User Interface/PauseMenu.prefab using Guid(26112b52065230d4d957e3f9d87cb82e) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: '0ff01df3f60ca91071c26f0479341689') in 0.0532789 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=480bae32b1e59ced511a01af5c663fc1 DependenciesID=893e80a44cce8aaa834ee5c1d423700d StaticDependenciesID=7d598d710d9aaf92377abdb651917a02 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 72
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Prefabs/Ingame/Gameplay/AINodeSingle.prefab
-  importAddress: Guid(e2350ad605e831043b4c1548b8fbf160) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
-Start importing Assets/Prefabs/Ingame/Gameplay/AINodeSingle.prefab using Guid(e2350ad605e831043b4c1548b8fbf160) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: '30639b155ecf569bf9f9feaad18109b3') in 0.0192285 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1df19dcb730f102699de0bdf274478dd DependenciesID=bc23740733b8b8681e6f3c05cb4776fc StaticDependenciesID=716549cafeb1d18fc88e66bcb9b81aaa 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Prefabs/Instantiated/MatchManager.prefab
-  importAddress: Guid(fdb6e26d3a9dcac42af827fefb1aa46f) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
-Start importing Assets/Prefabs/Instantiated/MatchManager.prefab using Guid(fdb6e26d3a9dcac42af827fefb1aa46f) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: '86aa1ab6cb7657e16c8173fc61bf8e4b') in 0.0317921 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f32e14bacda55db42ede625413943e47 DependenciesID=9b3a62e57f0f7cc0627e1769837c43d0 StaticDependenciesID=0cf8a01293f098748ccf5ae0c90eb773 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 323
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Scenes/Track_RainbowRoad.unity
-  importAddress: Guid(c6ff669b6a5dbd44bba8bdd7dbef35ff) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
-Start importing Assets/Scenes/Track_RainbowRoad.unity using Guid(c6ff669b6a5dbd44bba8bdd7dbef35ff) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter)Opening scene 'Assets/Scenes/Track_RainbowRoad.unity additively'
-Lighting data asset ‘LightmapSnapshot’ is incompatible with the current Unity version. Please use Generate Lighting to rebuild the lighting data. Realtime Global Illumination cannot be used until the lighting data is rebuilt.
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.SceneManagement.EditorSceneManager:OpenScene (string,UnityEditor.SceneManagement.OpenSceneMode)
-UnityEditor.Search.AssetIndexer:IndexScene (string,bool)
-UnityEditor.Search.AssetIndexer:IndexSceneDocument (string,bool)
-UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
-UnityEditor.Search.SearchIndexArtifactImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
-UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
-
-[C:\build\output\unity\unity\Editor\Src\GI\Enlighten\LightingDataAsset.cpp line 469]
-
-Lighting data asset ‘LightmapSnapshot’ is incompatible with the current Unity version because the scene it was baked for was not serialized. Please use Generate Lighting to rebuild the lighting data, or assign the target scene to the Lighting Data Asset in the inspector.
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.SceneManagement.EditorSceneManager:OpenScene (string,UnityEditor.SceneManagement.OpenSceneMode)
-UnityEditor.Search.AssetIndexer:IndexScene (string,bool)
-UnityEditor.Search.AssetIndexer:IndexSceneDocument (string,bool)
-UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
-UnityEditor.Search.SearchIndexArtifactImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
-UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
-
-[C:\build\output\unity\unity\Editor\Src\GI\Enlighten\LightingDataAsset.cpp line 479]
-
-Problem detected while opening the Scene file: 'Assets/Scenes/Track_RainbowRoad.unity'.
-Check the following logs for more details.
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.SceneManagement.EditorSceneManager:OpenScene (string,UnityEditor.SceneManagement.OpenSceneMode)
-UnityEditor.Search.AssetIndexer:IndexScene (string,bool)
-UnityEditor.Search.AssetIndexer:IndexSceneDocument (string,bool)
-UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
-UnityEditor.Search.SearchIndexArtifactImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
-UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
-
-[C:\build\output\unity\unity\Runtime\PreloadManager\LoadSceneOperation.cpp line 839]
-
-Prefab instance problem. Missing Prefab Asset: 'Missing Prefab with guid: 4a098fc0e930a104c9c1cd3546d4578d'
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.SceneManagement.EditorSceneManager:OpenScene (string,UnityEditor.SceneManagement.OpenSceneMode)
-UnityEditor.Search.AssetIndexer:IndexScene (string,bool)
-UnityEditor.Search.AssetIndexer:IndexSceneDocument (string,bool)
-UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
-UnityEditor.Search.SearchIndexArtifactImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
-UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
-
-[C:\build\output\unity\unity\Runtime\BaseClasses\ErrorsAndWarningsCapture.cpp line 66]
-
-Loaded scene 'Assets/Scenes/Track_RainbowRoad.unity'
-	Deserialize:            4.386 ms
-	Integration:            1190.977 ms
-	Integration of assets:  0.001 ms
-	Thread Wait Time:       0.014 ms
-	Total Operation Time:   1195.378 ms
- -> (Import Result ID: '678a475572c08cce0273dad3ecda700f') in 1.3690691 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5503d72834e8cf26005fbff2ac5fa583 DependenciesID=1e3e92b3dc84c39e4d663dfe75a46197 StaticDependenciesID=15f0c1a26219c6e9233a6c882f649e35 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 521
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Prefabs/User Interface/CharacterSelectEntry.prefab
-  importAddress: Guid(7432a5917aa9cd84b91aaed9cf11d3b2) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
-Start importing Assets/Prefabs/User Interface/CharacterSelectEntry.prefab using Guid(7432a5917aa9cd84b91aaed9cf11d3b2) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: '409fe2dceae3aa32739b37e5762eec5e') in 0.0127167 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0e2aed6f8b7b41120ec67b01164246d4 DependenciesID=cc9745145d3dbfdefd2fc77968bd789c StaticDependenciesID=299a3d694d0438f9b9d8d175327694d7 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Prefabs/User Interface/WaitingUI.prefab
-  importAddress: Guid(02831016a06e59645b9005e90f3c70a4) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
-Start importing Assets/Prefabs/User Interface/WaitingUI.prefab using Guid(02831016a06e59645b9005e90f3c70a4) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: '08a89432742870d1b593322dfacc9a98') in 0.0258232 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=09e56cd69bd6c899bb3fa4624918edc7 DependenciesID=9afe662e77c4ae6593f671d64493d56f StaticDependenciesID=20d59df8f12e0fc35b5219efa234d099 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Prefabs/Ingame/Gameplay/FinishLineBanner.prefab
-  importAddress: Guid(859a8c4e7ac067b4996efc3d9966f146) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
-Start importing Assets/Prefabs/Ingame/Gameplay/FinishLineBanner.prefab using Guid(859a8c4e7ac067b4996efc3d9966f146) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: '84d1924945bcde530fbcf0c5f7c1b6f4') in 0.0344225 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b54e5ae20daa168702997a74767551a6 DependenciesID=9604fb3e8a9f6130c96d9e35abaa3b4d StaticDependenciesID=716411ae0e98b45d7ab853c21f407cc5 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 42
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Prefabs/Ingame/Scenery/01 Green Hill Zone/Water.prefab
-  importAddress: Guid(babc4f89d547b20448a3f990e090da16) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
-Start importing Assets/Prefabs/Ingame/Scenery/01 Green Hill Zone/Water.prefab using Guid(babc4f89d547b20448a3f990e090da16) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: '5b1a03043007405ebe878c0aa114bb9d') in 0.0216251 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c9da2d9626d84b554457ba2d5745554b DependenciesID=08a3e4c0aad1532519f5065741f8b981 StaticDependenciesID=6f2f7b72286611669ac3f74f2c88bedc 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Prefabs/Cameras/PlayerCamera.prefab
-  importAddress: Guid(1f3ec1af904b6b54b9cfc2b288854f02) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
-Start importing Assets/Prefabs/Cameras/PlayerCamera.prefab using Guid(1f3ec1af904b6b54b9cfc2b288854f02) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: '8c7c5ed955ae4817f87467809f6fdf8a') in 0.0155741 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6333af8eb87802643ba26c00e4ef07c9 DependenciesID=a53eb6956e3c6e7706c76003af22ea4b StaticDependenciesID=5bddd6044f76fda613ab73249db2c6fc 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Prefabs/User Interface/Chat/ChatMessage.prefab
-  importAddress: Guid(2611df2f6b961134299e9122b7a9d3cd) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
-Start importing Assets/Prefabs/User Interface/Chat/ChatMessage.prefab using Guid(2611df2f6b961134299e9122b7a9d3cd) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: 'faf866c92a329eedda5cc2ea0d80a3c6') in 0.0136202 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=27b2edbdf1ac1c5a8438b0d6e230797c DependenciesID=5da639a79a1399b5431379958b0e7e0c StaticDependenciesID=c086268b42c4cad0316f225cb9491a9c 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Prefabs/User Interface/Popups/JoinServerPopup.prefab
-  importAddress: Guid(d5fdcfbe1b07cd94d9a9911503e11788) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
-Start importing Assets/Prefabs/User Interface/Popups/JoinServerPopup.prefab using Guid(d5fdcfbe1b07cd94d9a9911503e11788) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: '5d3264c544b5c7951ed308b74fe148a9') in 0.0633427 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2ae3edad0fa0d1ab20a49a2b0c4fcc93 DependenciesID=4cedd48a50ed56b6064229e0ee585355 StaticDependenciesID=aac3bab2975c24ce4e888489a08b923a 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 90
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Prefabs/Ingame/Scenery/04 Rainbow Road/RainbowRoad.prefab
-  importAddress: Guid(2a88e5c3ba50bcb4cb392c1c6a6665ea) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
-Start importing Assets/Prefabs/Ingame/Scenery/04 Rainbow Road/RainbowRoad.prefab using Guid(2a88e5c3ba50bcb4cb392c1c6a6665ea) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: 'cec63299a766ebaca4aece73b580a050') in 0.0138412 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=dd0860f4b0685536bb154f00cc870c41 DependenciesID=68b4476149d0643344190b6c96082049 StaticDependenciesID=9084457671c2a05397344a7fa13af826 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Prefabs/Ingame/Scenery/05 Dusty Desert/RockRampDesert.prefab
-  importAddress: Guid(8ea643ec46fe77041a673c29bdeb5a46) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
-Start importing Assets/Prefabs/Ingame/Scenery/05 Dusty Desert/RockRampDesert.prefab using Guid(8ea643ec46fe77041a673c29bdeb5a46) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: '930ca9bda2400cdbe2ce27f68efb8910') in 0.015932 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2be497fb1b81748759d764bdafc05a2e DependenciesID=c40bea0b818c1471219c9c7d965ed1c7 StaticDependenciesID=65b0e7c88c892b6d3fb3e39c57d824fb 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Prefabs/Cameras/LobbyCamera.prefab
-  importAddress: Guid(19721d1c95296314686e6165f2db0007) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
-Start importing Assets/Prefabs/Cameras/LobbyCamera.prefab using Guid(19721d1c95296314686e6165f2db0007) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: '19e9e844fdb4def158634feed3887020') in 0.0225313 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=61e43cc17cac63da8b26fc29448bf519 DependenciesID=16b1a8ad2daeeee4b5c84dc96a7beb71 StaticDependenciesID=b4ac5a2159b43c8fd565e823b110b85e 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Scenes/Track_FlameCore.unity
-  importAddress: Guid(8912b8b165639fe4285eff0f6d6d3b66) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
-Start importing Assets/Scenes/Track_FlameCore.unity using Guid(8912b8b165639fe4285eff0f6d6d3b66) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter)Opening scene 'Assets/Scenes/Track_FlameCore.unity additively'
-Lighting data asset ‘LightingData’ is incompatible with the current Unity version. Please use Generate Lighting to rebuild the lighting data. Realtime Global Illumination cannot be used until the lighting data is rebuilt.
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.SceneManagement.EditorSceneManager:OpenScene (string,UnityEditor.SceneManagement.OpenSceneMode)
-UnityEditor.Search.AssetIndexer:IndexScene (string,bool)
-UnityEditor.Search.AssetIndexer:IndexSceneDocument (string,bool)
-UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
-UnityEditor.Search.SearchIndexArtifactImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
-UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
-
-[C:\build\output\unity\unity\Editor\Src\GI\Enlighten\LightingDataAsset.cpp line 469]
-
-Lighting data asset ‘LightingData’ is incompatible with the current Unity version because the scene it was baked for was not serialized. Please use Generate Lighting to rebuild the lighting data, or assign the target scene to the Lighting Data Asset in the inspector.
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.SceneManagement.EditorSceneManager:OpenScene (string,UnityEditor.SceneManagement.OpenSceneMode)
-UnityEditor.Search.AssetIndexer:IndexScene (string,bool)
-UnityEditor.Search.AssetIndexer:IndexSceneDocument (string,bool)
-UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
-UnityEditor.Search.SearchIndexArtifactImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
-UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
-
-[C:\build\output\unity\unity\Editor\Src\GI\Enlighten\LightingDataAsset.cpp line 479]
-
-Problem detected while opening the Scene file: 'Assets/Scenes/Track_FlameCore.unity'.
-Check the following logs for more details.
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.SceneManagement.EditorSceneManager:OpenScene (string,UnityEditor.SceneManagement.OpenSceneMode)
-UnityEditor.Search.AssetIndexer:IndexScene (string,bool)
-UnityEditor.Search.AssetIndexer:IndexSceneDocument (string,bool)
-UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
-UnityEditor.Search.SearchIndexArtifactImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
-UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
-
-[C:\build\output\unity\unity\Runtime\PreloadManager\LoadSceneOperation.cpp line 839]
-
-Prefab instance problem. Missing Prefab Asset: 'Missing Prefab with guid: 1401533650a82b4498d14a1eb2063aa6'
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.SceneManagement.EditorSceneManager:OpenScene (string,UnityEditor.SceneManagement.OpenSceneMode)
-UnityEditor.Search.AssetIndexer:IndexScene (string,bool)
-UnityEditor.Search.AssetIndexer:IndexSceneDocument (string,bool)
-UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
-UnityEditor.Search.SearchIndexArtifactImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
-UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
-
-[C:\build\output\unity\unity\Runtime\BaseClasses\ErrorsAndWarningsCapture.cpp line 66]
-
-Loaded scene 'Assets/Scenes/Track_FlameCore.unity'
-	Deserialize:            12.060 ms
-	Integration:            1506.853 ms
-	Integration of assets:  0.002 ms
-	Thread Wait Time:       0.021 ms
-	Total Operation Time:   1518.936 ms
- -> (Import Result ID: 'a16b00e9c9a64988eb626760d7c7c8c2') in 1.9976011 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=84459fa9523ef7e360a1901879ba1c01 DependenciesID=cb7b7be7aa87882e6966e6476306bd1f StaticDependenciesID=1b16f36070fbd36163b57964acbc64fa 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 582
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Prefabs/User Interface/ScoreboardCanvas.prefab
-  importAddress: Guid(0729525267b150b499b26f95c4429ac3) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
-Start importing Assets/Prefabs/User Interface/ScoreboardCanvas.prefab using Guid(0729525267b150b499b26f95c4429ac3) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: '01f58fccbcc7564b40c208f6c3fdcd69') in 0.0387562 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cf351f3cbc465f6a0d532f2f47137e25 DependenciesID=c3c1e75929e3db54ed523c89a27a9a16 StaticDependenciesID=6ab452b634ceb9a1dcde0f0db8ba4ede 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 75
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Prefabs/User Interface/Popups/ChangeNicknamePopup.prefab
-  importAddress: Guid(dbe5efc7c563e024cbac22028827d347) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
-Start importing Assets/Prefabs/User Interface/Popups/ChangeNicknamePopup.prefab using Guid(dbe5efc7c563e024cbac22028827d347) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: '12ef4d92fdae8eaf45a880c1f59d2c57') in 0.0413054 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=193bc5e4289896a4e643a43643d80ec6 DependenciesID=116b7486b6572a0904a337d0b55701e5 StaticDependenciesID=f0e4e567871294e3a881688ac20c6033 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 68
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000068 seconds.
-  path: Assets/Prefabs/Instantiated/Ball objects/BallRemovalParticles.prefab
-  importAddress: Guid(e8c684b001602cc4295dfd027bb84014) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
-Start importing Assets/Prefabs/Instantiated/Ball objects/BallRemovalParticles.prefab using Guid(e8c684b001602cc4295dfd027bb84014) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: '0ad5b09f34db59dd15586a5d5995d3ee') in 0.0384076 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c3bd062665db97c878349b91d353dd8d DependenciesID=104969cec59a6494bc9dc5c53e7e2745 StaticDependenciesID=bc32d1fcc710041cd894c904581af8f6 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Prefabs/Ingame/Scenery/01 Green Hill Zone/PalmTree.prefab
-  importAddress: Guid(e36aa472f9b8cc647a51e420488f2f51) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
-Start importing Assets/Prefabs/Ingame/Scenery/01 Green Hill Zone/PalmTree.prefab using Guid(e36aa472f9b8cc647a51e420488f2f51) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: '9ec6e4aca56862c8310994505d45a242') in 0.0200564 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d2baac56e14fe9a06801771a1ef001a7 DependenciesID=8c34fec97f8578967c75ee62b930397d StaticDependenciesID=c7ae418766f874c5f1ae18d3a3135a28 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Prefabs/Ingame/Gameplay/Checkpoint.prefab
-  importAddress: Guid(cfa6de16a37474047966d7b267da6643) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
-Start importing Assets/Prefabs/Ingame/Gameplay/Checkpoint.prefab using Guid(cfa6de16a37474047966d7b267da6643) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: '53c8c4ea5492cd2da83281223b872a39') in 0.0227111 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=757420fe24c62296e9224323fda16ae1 DependenciesID=321976959bc9e80364b2fe557c5fb26c StaticDependenciesID=59e4e92576837f5977de6836a9e2b621 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Prefabs/Cameras/MenuCamera.prefab
-  importAddress: Guid(ceb67d3ed990bc34bbbac27fe9ceb383) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
-Start importing Assets/Prefabs/Cameras/MenuCamera.prefab using Guid(ceb67d3ed990bc34bbbac27fe9ceb383) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: 'f1b780fc2a2ebfc3ec2d67a89d152a1d') in 0.0312799 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1ac019fd986512632e5b43e7d9e85bc0 DependenciesID=17af8440bb2140db4da277535ea3b823 StaticDependenciesID=cc4ecc729f6697f1a8f013dc60ab408c 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Prefabs/Ingame/Scenery/01 Green Hill Zone/SmallTerrainPiece.prefab
-  importAddress: Guid(d6c6f17b58b648c42ad2f5a56baf06f9) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
-Start importing Assets/Prefabs/Ingame/Scenery/01 Green Hill Zone/SmallTerrainPiece.prefab using Guid(d6c6f17b58b648c42ad2f5a56baf06f9) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: 'cc12df9746165820c62d5e9d841f2a7c') in 0.0130935 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3a9e107407b81714b8ddbca4112aa065 DependenciesID=c618e5994554dfa51352c9337145c0bb StaticDependenciesID=6acda37a37338f3b46b8ef9476789670 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Prefabs/User Interface/Popups/DisconnectedPopup.prefab
-  importAddress: Guid(11ce84fdcf53cfe47a5dae11b1a8076a) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
-Start importing Assets/Prefabs/User Interface/Popups/DisconnectedPopup.prefab using Guid(11ce84fdcf53cfe47a5dae11b1a8076a) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: '30cc392f0aee9bce7508dcba482ac186') in 0.0219993 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b5e3b75378bb40b87ee46dd4b638981f DependenciesID=5dffec9d306994101b42e7c0292446ac StaticDependenciesID=dc2a0371b17e89a3bc6bc39c62277b62 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 33
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Prefabs/Ingame/Scenery/05 Dusty Desert/Rock03Desert.prefab
-  importAddress: Guid(7444c49e83a623743ac20b443df5a82a) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
-Start importing Assets/Prefabs/Ingame/Scenery/05 Dusty Desert/Rock03Desert.prefab using Guid(7444c49e83a623743ac20b443df5a82a) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: 'b8c27651e511c1b1cb990e43cb12681b') in 0.0134952 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e3cc24d792d44944b563818c0c7cdba3 DependenciesID=25ca1d145b473c2d3b1f7d1cbdfb0373 StaticDependenciesID=9075374f76ab1f04b18aead8a3349ac1 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Prefabs/User Interface/Marker.prefab
-  importAddress: Guid(4beca760f831c984e9f5e1b517aff2c2) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
-Start importing Assets/Prefabs/User Interface/Marker.prefab using Guid(4beca760f831c984e9f5e1b517aff2c2) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: '3072cab4ad896daff6b3d88fd1e57ddb') in 0.0184377 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=dad4d173ef117961a5065998df60a2db DependenciesID=8588bc114b58bd25c6b3b622692fc0a7 StaticDependenciesID=7aec52ce8512e37b6a0f12565ca9adf2 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Prefabs/User Interface/ClientListEntry.prefab
-  importAddress: Guid(01104554bc4d0c544a72be93d9e63d4e) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
-Start importing Assets/Prefabs/User Interface/ClientListEntry.prefab using Guid(01104554bc4d0c544a72be93d9e63d4e) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: '9ba30669e9eeefbc6a2bf4f821e86ee2') in 0.0204643 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e842ca9a2f1f5506ec6bc5842a5504a6 DependenciesID=f288fc2e97e1463ffee20efd94c27bc9 StaticDependenciesID=08866edbe43e3a750443798c43ad172d 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Prefabs/Lobby/Stage overviews/StageOverview_FlameCore.prefab
-  importAddress: Guid(776929cd993de29429473a9a6bcc039b) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
-Start importing Assets/Prefabs/Lobby/Stage overviews/StageOverview_FlameCore.prefab using Guid(776929cd993de29429473a9a6bcc039b) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: 'a0fa30272cdb5f98c326b3a45174bdd2') in 0.0396979 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2cd72ccf0119489a4bce154a19168793 DependenciesID=610624a46565bf1972ca42c1a4d9d263 StaticDependenciesID=2a12d4d36956494b9ae23d64390c2dae 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Prefabs/Lobby/Stage overviews/StageOverview_IceMountain.prefab
-  importAddress: Guid(7ff5f6fb8ee4cf446994c3b6ee13052e) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
-Start importing Assets/Prefabs/Lobby/Stage overviews/StageOverview_IceMountain.prefab using Guid(7ff5f6fb8ee4cf446994c3b6ee13052e) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: 'a1e83bc9d31b6107e6a38bc2c7a09d06') in 0.0177603 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=dff6ac3df324884185a185b5318258ce DependenciesID=a6534120616c7c9a9b1ded64375d024f StaticDependenciesID=fe100b0a5a315fa1c122c231ff2d6b12 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Prefabs/Ingame/Scenery/Common/Rock01.prefab
-  importAddress: Guid(71ff9884afc94ed479e7c38fa7338c36) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
-Start importing Assets/Prefabs/Ingame/Scenery/Common/Rock01.prefab using Guid(71ff9884afc94ed479e7c38fa7338c36) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: '44a80637d38b26f9ddb69efc0753ea17') in 0.0138758 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bd02d3ba13375eac0a4af8656a0652f0 DependenciesID=aec936542ed699be22df8ab4b1eaee09 StaticDependenciesID=c317b29295a428a5b56745312620c3ce 
+  Time since last request: 2255.132472 seconds.
+  path: Assets/Art/Characters/09 Dr Aggmen/AggmenCollision.fbx
+  importAddress: Guid(8bad5274dce3b554baa16f737265cba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Characters/09 Dr Aggmen/AggmenCollision.fbx using Guid(8bad5274dce3b554baa16f737265cba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '04b23654a8e2b68a326f4a5fb004b10f') in 0.5848262 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e462ac02e3342d0d3f4f08346c622659 DependenciesID=bcf604980793049944038c3e6baa9555 StaticDependenciesID=a8d80f95917093a9eac8edd8f3f590f5 
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Prefabs/User Interface/Stage selection/StageSelection.prefab
-  importAddress: Guid(6f50778aa8442f647801241dac5c047b) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
-Start importing Assets/Prefabs/User Interface/Stage selection/StageSelection.prefab using Guid(6f50778aa8442f647801241dac5c047b) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: 'b8300994dc4cd28e5f5e269e27ac95dc') in 0.0448813 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5f2f7c4c495d1afd0751c8592c4515d6 DependenciesID=930ae0d64a853b8bdf3918f5b06bfb09 StaticDependenciesID=22babf43de1520557e8d01bc93d3e1c6 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 72
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-MESN-GUW7-62D3-FRZW-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 9071283907225-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Duplicate assembly 'Newtonsoft.Json.dll' with different versions detected, using 'Packages/com.unity.nuget.newtonsoft-json/Runtime/Newtonsoft.Json.dll, AssemblyName=Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed' and ignoring 'Assets/Assemblies/Newtonsoft.Json.dll, AssemblyName=Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed'.Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly DocCodeExamples.dll at Library/ScriptAssemblies/DocCodeExamples.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Sprite.Package.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Sprite.Package.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Tilemap.Package.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Tilemap.Package.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Analytics.DataPrivacy.Tests.dll at Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Analytics.StandardEvents.EditorTests.dll at Library/ScriptAssemblies/Unity.Analytics.StandardEvents.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.BurstCompatibilityGen.dll at Library/ScriptAssemblies/Unity.Collections.BurstCompatibilityGen.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.DocCodeSamples.dll at Library/ScriptAssemblies/Unity.Collections.DocCodeSamples.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.PerformanceTests.dll at Library/ScriptAssemblies/Unity.Collections.PerformanceTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.dll at Library/ScriptAssemblies/Unity.Collections.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.Playmode.dll at Library/ScriptAssemblies/Unity.Collections.Tests.Playmode.dll not valid. Loading of assembly skipped.
+Assembly Unity.Mathematics.Tests.dll at Library/ScriptAssemblies/Unity.Mathematics.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Nuget.Mono-Cecil.dll at Library/ScriptAssemblies/Unity.Nuget.Mono-Cecil.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Config.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Config.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Searcher.EditorTests.dll at Library/ScriptAssemblies/Unity.Searcher.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.ShaderGraph.Editor.Tests.dll at Library/ScriptAssemblies/Unity.ShaderGraph.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.UnifiedRayTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.UnifiedRayTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.XR.LegacyInputHelpers.Tests.dll at Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.Advertisements.Editor.Tests.dll at Library/ScriptAssemblies/UnityEngine.Advertisements.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.Advertisements.Tests.dll at Library/ScriptAssemblies/UnityEngine.Advertisements.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.Purchasing.Apple.dll at Library/ScriptAssemblies/UnityEngine.Purchasing.Apple.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.Purchasing.AppleMacos.dll at Library/ScriptAssemblies/UnityEngine.Purchasing.AppleMacos.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.Purchasing.Security.dll at Library/ScriptAssemblies/UnityEngine.Purchasing.Security.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.Purchasing.WinRT.dll at Library/ScriptAssemblies/UnityEngine.Purchasing.WinRT.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.SpatialTracking.Tests.dll at Library/ScriptAssemblies/UnityEngine.SpatialTracking.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
+Symbol file LoadedFromMemory is not a mono symbol file
+OnLevelWasLoaded was found on MatchManager
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+Refreshing native plugins compatible for Editor in 5.60 ms, found 2 plugins.
+OnLevelWasLoaded was found on MatchManager
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.159 seconds
+Domain Reload Profiling: 2176ms
+	BeginReloadAssembly (304ms)
+		DisableScriptedObjects (40ms)
+		CreateAndSetChildDomain (70ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (80ms)
+	LoadAllAssembliesAndSetupDomain (575ms)
+		LoadAssemblies (466ms)
+		AnalyzeDomain (224ms)
+			TypeCache.Refresh (7ms)
+			BuildScriptInfoCaches (200ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (1159ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			BeforeProcessingInitializeOnLoad (189ms)
+			ProcessInitializeOnLoadAttributes (300ms)
+			ProcessInitializeOnLoadMethodAttributes (409ms)
+			AfterProcessingInitializeOnLoad (3ms)
+		AwakeInstancesAfterBackupRestoration (28ms)
+Refreshing native plugins compatible for Editor in 9.90 ms, found 2 plugins.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5652 unused Assets / (5.6 MB). Loaded Objects now: 6586.
+Memory consumption went from 179.8 MB to 174.2 MB.
+Total: 18.158600 ms (FindLiveObjects: 0.855000 ms CreateObjectMapping: 0.593200 ms MarkObjects: 13.354200 ms  DeleteObjects: 3.354800 ms)
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Prefabs/User Interface/PlayerUI.prefab
-  importAddress: Guid(448b8e41f02717c4994e9e5e4925dc5c) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
-Start importing Assets/Prefabs/User Interface/PlayerUI.prefab using Guid(448b8e41f02717c4994e9e5e4925dc5c) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: '2dc12eb996f3a8422db74035c0d1c606') in 0.0452003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=71d7661853246d649cf3f64dd7804215 DependenciesID=8d755fb906bf26fee6c58422e585d9a2 StaticDependenciesID=2aab2dbf5726fcb959a2aa0467cb3fbb 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 72
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Prefabs/Ingame/Scenery/03 Snowy Mountain/SnowParticles.prefab
-  importAddress: Guid(b52684379faaf5e4faba99d97202c8a9) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
-Start importing Assets/Prefabs/Ingame/Scenery/03 Snowy Mountain/SnowParticles.prefab using Guid(b52684379faaf5e4faba99d97202c8a9) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: 'ab350d44debd0e7c5c71bd67fd3fe7f8') in 0.025145 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=444803484ec4502d82f311835197df66 DependenciesID=776f38dce456d0f8f64370e0c8e2bdd8 StaticDependenciesID=3f9d00a03d9af9be41c253328b54a275 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Prefabs/Ingame/Scenery/Common/RockRamp.prefab
-  importAddress: Guid(52e287b93e4ed2b49905b64e658e6112) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
-Start importing Assets/Prefabs/Ingame/Scenery/Common/RockRamp.prefab using Guid(52e287b93e4ed2b49905b64e658e6112) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: '053cc38d84851e05551e7029e4cac89c') in 0.0111239 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=51e7e8fa25670e044e73880847327692 DependenciesID=4bc45f1ee752bf00c8b48bebbcced9ef StaticDependenciesID=5a0702ff23e30c7e16bf035175189ec9 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Prefabs/Ingame/Scenery/05 Dusty Desert/Rock01Desert.prefab
-  importAddress: Guid(af274bc209131ff4184d37a2de3c86a9) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
-Start importing Assets/Prefabs/Ingame/Scenery/05 Dusty Desert/Rock01Desert.prefab using Guid(af274bc209131ff4184d37a2de3c86a9) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: '44429423a444ea9d8e8d144ffbad9f24') in 0.014221 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f102e7fcc3e27b0a30d005400b6ecb7b DependenciesID=bf9c804972734a473774480a5f73fbb0 StaticDependenciesID=f09290dd2b26d052bb253c84f3ad15c8 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Prefabs/Ingame/Scenery/Easter eggs/Chip.prefab
-  importAddress: Guid(052fecdc347265e47ae4ec540c7057a1) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
-Start importing Assets/Prefabs/Ingame/Scenery/Easter eggs/Chip.prefab using Guid(052fecdc347265e47ae4ec540c7057a1) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: '90f94360e89eb2d9138ce8e4d65574e1') in 0.0135231 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c048d1147a0b91e9fccb95076e9ba87d DependenciesID=24d7ba509b73af44d5b51ddbec9ccc23 StaticDependenciesID=2879bffa1e618e183edcfdde945c9d34 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Prefabs/User Interface/Controls/ButtonControl.prefab
-  importAddress: Guid(1cebb2b64452bc340b2bd74d04a50f59) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
-Start importing Assets/Prefabs/User Interface/Controls/ButtonControl.prefab using Guid(1cebb2b64452bc340b2bd74d04a50f59) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: '93db653a6816df07c98d8c1943f15c60') in 0.0250819 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e44c3f4c53ffa70cf2b5b63b9c6e0808 DependenciesID=1c6d8b60034cbc28b3da5c6a1ba6043d StaticDependenciesID=fa27a363670d6569dc966a203eaaddb1 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 189
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Prefabs/Instantiated/Ball.prefab
-  importAddress: Guid(15c7ed3ff76289b4680e4b9f1f52fb22) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
-Start importing Assets/Prefabs/Instantiated/Ball.prefab using Guid(15c7ed3ff76289b4680e4b9f1f52fb22) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: 'b8375ce18d882ce2bea35319cd6aba2f') in 0.0317947 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f3ed8e2b81f3a3200aeecd149070e0da DependenciesID=897225bf3c15d2e9f303cfa81f0e3798 StaticDependenciesID=b152a99f11c0bc6b429f01239c71135d 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 73
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Prefabs/Ingame/Systems/IngameMusic.prefab
-  importAddress: Guid(51f3e5081b01a9445926f728b22ea4a2) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
-Start importing Assets/Prefabs/Ingame/Systems/IngameMusic.prefab using Guid(51f3e5081b01a9445926f728b22ea4a2) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: '68a9d2cf2f8c0f3b52ab184eedb50a63') in 0.7863438 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=235d46467c9e5fdc4ed093af382d7277 DependenciesID=0be939ef9caaf68f830838af91f37a5c StaticDependenciesID=ecd8c4fe2677f83842b5f14b40ae4acf 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 54
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Prefabs/Instantiated/Ball objects/TireSmoke.prefab
-  importAddress: Guid(83f9c6324dcbb7042a24b3478b9efcbe) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
-Start importing Assets/Prefabs/Instantiated/Ball objects/TireSmoke.prefab using Guid(83f9c6324dcbb7042a24b3478b9efcbe) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: '4fc6cb758eeed3126acfeaabfd379290') in 0.0318543 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=761824504badbd95da9eb73c5553b64e DependenciesID=44d26a87c1a8f8fbe3980a55fcfbeb24 StaticDependenciesID=8e58b4e5abbf78abcaec1e5c196a3916 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Prefabs/Lobby/Stage overviews/StageOverview_DustyDesert.prefab
-  importAddress: Guid(58a107525dc8c9842b4a718ba470c3d3) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
-Start importing Assets/Prefabs/Lobby/Stage overviews/StageOverview_DustyDesert.prefab using Guid(58a107525dc8c9842b4a718ba470c3d3) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: 'a791a97f9031bcf18053f1aaeb337407') in 0.0194483 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5346746fc8066994140501bff3197bc6 DependenciesID=1ed84445e1f03c060f67dcfdef4a20c3 StaticDependenciesID=0add871a60e57c1ad5f248294ad88e49 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Prefabs/Instantiated/SpectatorView.prefab
-  importAddress: Guid(1b1e937c51c6e4d44b995125a35246aa) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b)
-Start importing Assets/Prefabs/Instantiated/SpectatorView.prefab using Guid(1b1e937c51c6e4d44b995125a35246aa) Importer(2089858483,e11c23a36db5f54750b8cd40eac0985b) (ScriptedImporter) -> (Import Result ID: '40379bf05d9ee021e44f4d6824bddd10') in 0.0254087 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=78c0942fea9af68d8586f1508d01b308 DependenciesID=2bdf36843f17f5a99e71d737d85a417d StaticDependenciesID=ab964db46c8b97bcbc537f8d3a3336cc 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 96
-
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+Prepare: number of updated asset objects reloaded= 0

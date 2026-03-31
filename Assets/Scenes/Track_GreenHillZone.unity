@@ -10627,7 +10627,7 @@ LightingSettings:
   m_CompAOExponent: 2
   m_CompAOExponentDirect: 1
   m_ExtractAO: 0
-  m_MixedBakeMode: 0
+  m_MixedBakeMode: 1
   m_LightmapsBakeMode: 0
   m_FilterMode: 1
   m_LightmapParameters: {fileID: 15204, guid: 0000000000000000f000000000000000, type: 0}
@@ -37698,7 +37698,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 81c1561e7ba8b9141a3d45a5dd640870, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 48.4
+      value: 15.2
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 81c1561e7ba8b9141a3d45a5dd640870, type: 3}
       propertyPath: m_LocalPosition.z
@@ -62065,7 +62065,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 81c1561e7ba8b9141a3d45a5dd640870, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 48.4
+      value: 28.8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 81c1561e7ba8b9141a3d45a5dd640870, type: 3}
       propertyPath: m_LocalPosition.z
@@ -65998,7 +65998,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 81c1561e7ba8b9141a3d45a5dd640870, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 48.4
+      value: 35.5
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 81c1561e7ba8b9141a3d45a5dd640870, type: 3}
       propertyPath: m_LocalPosition.z
